@@ -34,7 +34,7 @@ Para el desarrollo del backend deberás utilizar:
 - [Node.js](https://nodejs.org/) con [Express](https://expressjs.com/) como framework.
 - Base de datos MySQL.
 - Hasheo de contraseñas.
-- Servidor FTP para almacenamiento de archivos.
+- Almacenamiento de archivos.
 
 Para el desarrollo del frontend deberás utilizar:
 
