@@ -4,32 +4,49 @@
 
 ## Información general
 
-Desde la _Secretaría de Innovación y Transformación Digital_ estamos muy contentos de que estés interesado/a en sumarte a nuestro equipo de desarrollo, pero antes, vamos a proponerte que realices un desafío para que puedas familiarizarte con las tecnologías con las cuales trabajamos.
+Desde la _Secretaría de Innovación y Transformación Digital_ estamos muy contentos de que estés interesado/a en sumarte a nuestro equipo de desarrollo, pero antes, vamos a proponerte que realices un desafío para que puedas demostrar tus conocimientos en las tecnologías con las cuales trabajamos.
 
 ## Requisitos
 
-El desafío consiste en desarrollar un sitio web que cuente con las siguientes pantallas.
+El desafío consiste en desarrollar una aplicación web que cuente con las vistas detalladas a continuación.
 
 ### Registro
 
-Deberá incluir un formulario con los campos: nombre, apellido, email y contraseña.
+Desde esta vista los usuarios podrán crear una cuenta con: nombre, apellido, fecha de nacimiento, dni, email, contraseña y foto de perfil.
 
 ### Inicio de sesión
 
-Deberá incluir un formulario que permita autenticarse con email y contraseña. En caso de que las credenciales ingresadas sean correctas, redigir al usuario a la pantalla principal.
+Permitirá a los usuarios autenticarse con email y contraseña.
 
 ### Pantalla principal
 
-Si el usuario es administrador, deberá mostrarse una tabla dónde se listen todos los usuarios registrados.
-En caso contrario, solo mostrar un mensaje de bienvenida.  
-No te olvides de proteger esta ruta, es decir, que solo puedan acceder aquellos usuarios que hayan iniciado sesión previamente.
+Si el usuario es administrador, deberá visualizar una lista con los usuarios registrados, pudiendo modificarlos o desactivarlos.  
+En caso contrario, los usuarios comunes visualizarán un mensaje de bienvenida.
+
+### Perfil
+
+Desde aquí los usuarios podrán visualizar y modificar todos los datos asociados a su cuenta.
 
 ## Especificaciones técnicas
 
-Para el desarrollo del frontend deberás utilizar la biblioteca [React](https://reactjs.org). Puedes utilizar CSS/SASS o el framework que prefieras (Ej: [Bootstrap](https://react-bootstrap.github.io/)) para ayudarte con el estilado del sitio. No olvides comunicar al usuario los mensajes de éxito o error que tengan lugar en las distintas pantallas.   
-En cuanto al backend, deberás utilizar [Node.js](https://nodejs.org/) en conjunto con el framework [Express](https://expressjs.com). La base de datos deberá ser SQL, utilizando [Sequelize](https://sequelize.org) con transacciones para realizar las consultas.
-Te recomendamos gestionar tu base de datos con [MySQL Workbench](https://www.mysql.com/products/workbench/).
+Para el desarrollo del backend deberás utilizar:
+
+- [Node.js](https://nodejs.org/) con [Express](https://expressjs.com/) como framework.
+- Base de datos MySQL.
+- Hasheo de contraseñas.
+- Servidor FTP para almacenamiento de archivos.
+
+Para el desarrollo del frontend deberás utilizar:
+
+- [React]()
+- Enrutamiento
+- [Tailwind CSS](https://tailwindcss.com/)
+- Íconos
+- Modales y alertas
+
+Para ambos proyectos es importante consumir datos sensibles desde variables de entorno, así como contar con un correcto manejo de errores.
 
 ## Formato de entrega
 
-Una vez terminado el proyecto, deberás enviarnos el link del repositorio para que podamos revisarlo. No olvides incluir un archivo README explicando brevemente el funcionamiento del sitio y detallando los pasos a seguir para que podamos probarlo en local.
+Una vez terminado el desafío, deberás enviarnos el link del repositorio para que podamos revisarlo. Cada proyecto deberá incluir su documentación correspondiente.  
+Luego de la entrega, el proyecto deberá ser presentado en vivo para mostrar su funcionamiento.
