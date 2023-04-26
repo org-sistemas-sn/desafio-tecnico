@@ -33,6 +33,7 @@ Para el desarrollo del backend deberás utilizar:
 
 - [Node.js](https://nodejs.org/) con [Express](https://expressjs.com/) como framework.
 - Base de datos MySQL.
+- Sequelize ORM.
 - Hasheo de contraseñas.
 - Almacenamiento de archivos.
 
