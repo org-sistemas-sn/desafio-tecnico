@@ -54,7 +54,7 @@ Para ayudarte en el desarrollo de este desafío técnico, aquí te proporcionamo
 
 4. **Control de Errores:** Implementa un manejo adecuado de errores en el backend y proporciona mensajes de error claros y amigables para los usuarios en el frontend.
 
-5. **Almacenamiento de Archivos:** Considera las diferentes opciones para el almacenamiento de archivos, como el uso del sistema de archivos local nativo (Filesystem) como asi puede ser local externa (server ftp), otra opcion son los servicios de almacenamiento en la nube, y elige la que mejor se adapte a tus necesidades.
+5. **Almacenamiento de Archivos:** Para utilizar un correcto manejo de archivos sugerimos utilizar FTP.
 
 6. **Documentación:** Asegúrate de incluir una documentación clara y detallada tanto en el código como en el README para que otros desarrolladores puedan entender y colaborar en tu proyecto.
 
@@ -68,7 +68,7 @@ Para el desarrollo del backend deberás utilizar:
 - Base de datos MySQL.
 - Sequelize ORM.
 - Hasheo de contraseñas.
-- Almacenamiento de archivos.
+- Almacenamiento de archivos (FTP)
 
 Para el desarrollo del frontend deberás utilizar:
 
