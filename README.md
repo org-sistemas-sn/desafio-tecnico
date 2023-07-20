@@ -68,6 +68,7 @@ Para el desarrollo del backend deberás utilizar:
 - Base de datos MySQL.
 - Sequelize ORM.
 - Hasheo de contraseñas.
+- JSON Web Tokens (JWT) para autenticación y autorización.
 - Almacenamiento de archivos (FTP)
 
 Para el desarrollo del frontend deberás utilizar:
