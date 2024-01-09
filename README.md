@@ -2,34 +2,34 @@
 
 <img src="./assets/repository-header.jpg">
 
-## Información general
+## Contexto
 
-Desde la _Secretaría de Innovación y Transformación Digital_ estamos muy contentos de que estés interesado/a en sumarte a nuestro equipo de desarrollo, pero antes, vamos a proponerte que realices un desafío para que puedas familiarizarte con las tecnologías con las cuales trabajamos.
+Desde la _Secretaría de Innovación y Ciudad Inteligente_ estamos muy contentos de que estés interesado/a en formar parte de nuestro equipo de desarrollo, pero antes, vamos a proponerte que realices un desafío técnico para que podamos evualuar tus conocimientos utilizando las tecnologías con las cuales trabajamos a diario.
 
-## Requisitos
+## Requerimientos
 
-El desafío consiste en desarrollar un sitio web que cuente con las siguientes pantallas.
+Deberás realizar una aplicación web que permita a los vecinos de nuestra ciudad realizar un trámite de forma online. El trámite a implementar queda a elección del aspirante, pero puedes tomar como referencia el listado disponible en el siguiente [link](https://www.sannicolasciudad.gob.ar/tramites). No es necesario replicar el trámite en su totalidad, pueden omitirse pasos o simplificarse el flujo.
 
-### Registro
+El formulario que represente al trámite deberá contener al menos 5 campos, uno de ellos deberá ser obligatoriamente del tipo archivo.
 
-Deberá incluir un formulario con los campos: nombre, apellido, email y contraseña.
-
-### Inicio de sesión
-
-Deberá incluir un formulario que permita autenticarse con email y contraseña. En caso de que las credenciales ingresadas sean correctas, redigir al usuario a la pantalla principal.
-
-### Pantalla principal
-
-Si el usuario es administrador, deberá mostrarse una tabla dónde se listen todos los usuarios registrados.
-En caso contrario, solo mostrar un mensaje de bienvenida.  
-No te olvides de proteger esta ruta, es decir, que solo puedan acceder aquellos usuarios que hayan iniciado sesión previamente.
+El portal contará con administradores que añadirán comentarios y cambiarán el estado de los trámites. Los vecinos deberán tener la posibilidad de realizar un seguimiento a la evolución de sus trámites.
 
 ## Especificaciones técnicas
 
-Para el desarrollo del frontend deberás utilizar la biblioteca [React](https://reactjs.org). Puedes utilizar CSS/SASS o el framework que prefieras (Ej: [Bootstrap](https://react-bootstrap.github.io/)) para ayudarte con el estilado del sitio. No olvides comunicar al usuario los mensajes de éxito o error que tengan lugar en las distintas pantallas.   
-En cuanto al backend, deberás utilizar [Node.js](https://nodejs.org/) en conjunto con el framework [Express](https://expressjs.com). La base de datos deberá ser SQL, utilizando [Sequelize](https://sequelize.org) con transacciones para realizar las consultas.
-Te recomendamos gestionar tu base de datos con [MySQL Workbench](https://www.mysql.com/products/workbench/).
+Para el desarrollo del backend deberás utilizar:
+
+- Node.js con Express como framework
+- Base de datos MySQL
+- Sequelize ORM
+- Protocolo FTP para el almacenamiento de archivos
+
+Para el desarrollo del frontend deberás utilizar:
+
+- React
+- Tailwind CSS
+
+(*) Puedes añadir cualquier otra tecnología que creas necesaria para el desarrollo de la aplicación.
 
 ## Formato de entrega
 
-Una vez terminado el proyecto, deberás enviarnos el link del repositorio para que podamos revisarlo. No olvides incluir un archivo README explicando brevemente el funcionamiento del sitio y detallando los pasos a seguir para que podamos probarlo en local.
+Enviar el link del repositorio junto con un breve video que muestre y explique el funcionamiento del sitio.
